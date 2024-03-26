@@ -1,0 +1,31 @@
+.pokecard{
+    height: 20rem;
+    width: 16rem;
+    align-content: center;
+    margin: 10px;
+}
+.pokeimage{
+    background-color: hsl(0, 0%, 90%);
+    border: 1px solid hsl(0, 0%, 50%);
+    border-radius: 10px;
+    display:flex;
+    height: 13rem;
+    width: 16rem;
+}
+.pokeimage:hover{
+    cursor:pointer;
+
+}
+.pokename{
+    font-size: 20px;
+    font-weight: 700;
+    text-align:center;
+    height: 1px;
+    padding-bottom: 5px;
+}
+.pokenumber{
+    height: 0px;    
+}
+.pokenamearea{
+    height: 0px;  
+}

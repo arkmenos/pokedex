@@ -1,0 +1,16 @@
+.type {
+    border: 1px solid black;
+    text-align: center;
+    width:6rem;  
+    line-height:1.5rem;
+    margin-right: 15px;
+    
+}
+
+.type p{
+    vertical-align: center;    
+}
+p {
+    font-weight: bold;
+    color:black;
+}

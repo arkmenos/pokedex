@@ -1,0 +1,14 @@
+.detail-data {
+    border-width: 1px 0;
+    border-style: solid;
+}
+.detail-table {
+    border-collapse: collapse;
+    /* border-spacing: 0; */
+    padding: 4px 10px;
+    white-space: nowrap;
+}
+
+th,td {
+    padding:  4px 10px;
+}

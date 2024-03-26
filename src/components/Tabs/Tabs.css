@@ -1,0 +1,48 @@
+.TabView {
+    width: 100%;    
+  }
+
+  .TabView .body {
+    /* padding: 1em; */
+    width:100%;
+  }
+  
+  .TabView .tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .TabView .tabs .tab {
+    padding: 5px 1em;
+    border: 1px solid gray;
+  }
+  
+  .TabView .tabs .active-tab {
+    padding: 5px 1em;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    background-color: gold
+  }
+  
+  .TabView .content {
+    display: flex;
+    flex-direction: row;
+
+    
+    /* align-content: center; */
+    /* align-items: center;  */
+    padding: 1em;
+    
+    /* justify-content: center;  */
+
+     /* background-color: hsl(0, 0%, 95%); */
+    max-width:75rem;
+    margin: 0 auto;  
+    
+  }
+  
+  .body{
+    padding-top: 2rem;
+  }

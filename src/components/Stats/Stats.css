@@ -1,0 +1,6 @@
+.types{
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    margin: 0 auto;
+}

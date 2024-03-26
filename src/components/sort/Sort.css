@@ -1,0 +1,25 @@
+.sort-area {
+    display: block;
+    text-align: center;
+    padding: 0 auto;
+    font-weight: bold;
+}
+
+.random-button{
+    margin-right: 400px;
+    /* font-weight: bold; */
+    font-size: large;
+    /* width: rem; */
+    background-color: aqua;
+}
+
+.sort-label {
+    padding-right: 1rem;
+}
+
+.sort-dropdown {
+    background-color: whitesmoke;
+    height: 2rem;
+    font-weight: bold;
+
+}
