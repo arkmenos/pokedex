@@ -1,20 +1,22 @@
 .sort-area {
     display: block;
     text-align: center;
+    align-items: center;
     padding: 0 auto;
     font-weight: bold;
 }
 
 .random-button{
-    margin-right: 400px;
+    
     /* font-weight: bold; */
     font-size: large;
     /* width: rem; */
-    background-color: aqua;
+    background-color: hsla(115, 100%, 50%, 0.7);
 }
 
 .sort-label {
     padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 .sort-dropdown {
@@ -23,3 +25,20 @@
     font-weight: bold;
 
 }
+
+@media screen and (max-width: 600px) 
+{
+    .random-button,.sort-label,.sort-dropdown{
+        width: 100%;
+        margin-bottom: 30px;
+        
+    }    
+}
+
+@media screen and (min-width: 1000px) 
+{
+    .random-button{
+        margin-right: 400px;
+    }
+}
+ 

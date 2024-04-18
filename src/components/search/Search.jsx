@@ -71,6 +71,7 @@ function Search(){
     return (
         <div className="search-area">
             <div>
+                <label className="search-label">Search by pokemon name or pokenumber</label><br/>
                 <input className="search-input" type="text"
                     onChange={filterNames} onMouseDown={filterNames}
                     onKeyDown={handleKeyPress}

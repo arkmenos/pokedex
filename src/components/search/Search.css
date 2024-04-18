@@ -30,6 +30,33 @@
     justify-content: space-around;
     height:4rem;
 } 
-.search-button {
-    margin-left: 1rem;
+.search-area{
+    height: 5rem;
+}
+.search-label {
+    background-color: aqua;
+}
+@media screen and (max-width:600px) {
+    .search-area{
+        display: block;
+        text-align: center;
+        align-items: center;
+    }
+    .search-input{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 90%;
+    }
+    .search-button {
+        margin-bottom: 50px;
+    }
+    .search-area{
+        height: 6rem;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .search-button {
+        margin-left: 1rem;
+    }
 }

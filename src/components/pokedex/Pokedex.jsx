@@ -60,7 +60,6 @@ function Pokedex(){
     function handleSorting(type){
         setSortType(type);
         const tempSearchList = [...searchList];
-        console.log(searchList)
         switch(type){
             case "1":
                 if(loadMore) pokedex2.sort((a,b) => a.id - b.id)
@@ -71,11 +70,11 @@ function Pokedex(){
                 else tempSearchList.sort((a,b) => b.id - a.id)
                 break;
             case "3":
-                if(loadMore) pokedex2.sort((a,b) => a.name.toLocaleLowerCase() > b.name.toLocaleLowerCase())
+                if(loadMore) pokedex2.sort((a,b) => a.name.toLocaleLowerCase() > b.name.toLocaleLowerCase() ? 1 : -1)                    
                 else tempSearchList.sort((a,b) => a.name.toLocaleLowerCase() > b.name.toLocaleLowerCase())
                 break;
             case "4":
-                if(loadMore) pokedex2.sort((a,b) => b.name.toLocaleLowerCase() > a.name.toLocaleLowerCase())
+                if(loadMore) pokedex2.sort((a,b) => b.name.toLocaleLowerCase() > a.name.toLocaleLowerCase()  ? 1 : -1)                   
                 else tempSearchList.sort((a,b) => b.name.toLocaleLowerCase() > a.name.toLocaleLowerCase())      
                 break;
             default:
@@ -112,7 +111,7 @@ function Pokedex(){
                                 <div className="loadmore" >
                                     {loadMore &&
                                         <button className="button" 
-                                        onClick={() => loadMorePokemon(false, random)}>More Pokemon</button>}
+                                        onClick={() => loadMorePokemon(false, random)}>Show more Pokemon</button>}
                                         {random &&
                                         <button className="button" 
                                         onClick={() => reset()}>Reset Pokemon List</button>                                                           

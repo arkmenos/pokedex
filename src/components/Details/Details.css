@@ -6,7 +6,7 @@
     border-collapse: collapse;
     /* border-spacing: 0; */
     padding: 4px 10px;
-    white-space: nowrap;
+    width:100%;
 }
 
 th,td {
