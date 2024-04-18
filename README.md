@@ -1,8 +1,7 @@
-# React + Vite
+#Pokedex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend for pokedex application created using React and Vite.
 
-Currently, two official plugins are available:
+Backend (https://github.com/arkmenos/node-ts-app) uses MongoDB, which provides basic information for all pokemon.
+Redux Toolkit is also used for fetching various pokemon information from https://pokeapi.co/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
